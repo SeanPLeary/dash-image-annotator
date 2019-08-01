@@ -9,7 +9,7 @@ Image Annotator Web-app using Plotly-Dash, MongoDB, and MLflow
     - [x] ingest selected images
     - [x] ingest zipped images
   - [ ] annotator
-    - [ ] query/download images from external MongoDB
+    - [x] query/display images from external MongoDB
     - [ ] manual annotation (save to external MongoDB)
       - [ ] box
         - [ ] editable
