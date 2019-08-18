@@ -108,7 +108,11 @@ def update_output(uploaded_filenames, uploaded_file_contents, comments):
     files = []
     if uploaded_filenames is not None and uploaded_file_contents is not None:
         for name, data in zip(uploaded_filenames, uploaded_file_contents):
-            files = save_file(name, data, comments)
+            if name.split('.')[-1] != 'zip':
+                _ = save_file(name, data, comments)
+                files.append(name)
+            else:
+                files = save_file(name, data, comments)
 
     if not files:
         return [html.Li('No files yet!')]
