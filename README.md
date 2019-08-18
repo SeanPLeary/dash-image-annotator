@@ -2,6 +2,9 @@
 
 Image Annotator Web-app using Plotly-Dash, MongoDB, and MLflow
 
+## Demo:
+![dash-image-annotator demo](demo/demo.gif)
+
 ## Main Task List:
 
 - [x] multi-page web-app
@@ -71,7 +74,6 @@ Image Annotator Web-app using Plotly-Dash, MongoDB, and MLflow
 15. annotations can be saved to the MongoDB by clicking the **Save** button
 
 TODO: add mlflow model instructions 
-TODO: add gif animation
 
 ### References:
 
