@@ -7,7 +7,7 @@ dash-html-components==1.0.0
 dash-renderer==1.0.0
 dash-table==4.0.2
 dnspython==1.16.0
-jupyterlab==1.0.1
+jupyterlab==1.2.21
 Keras==2.2.4
 mlflow==1.0.0
 nested-lookup==0.2.17
