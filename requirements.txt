@@ -9,7 +9,7 @@ dash-table==4.0.2
 dnspython==1.16.0
 jupyterlab==1.0.1
 Keras==2.2.4
-mlflow==1.0.0
+mlflow==1.23.1
 nested-lookup==0.2.17
 numpy==1.14.5
 pandas==0.23.4
