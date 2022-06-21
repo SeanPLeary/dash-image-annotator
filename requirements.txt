@@ -11,7 +11,7 @@ jupyterlab==1.0.1
 Keras==2.2.4
 mlflow==1.0.0
 nested-lookup==0.2.17
-numpy==1.14.5
+numpy==1.22.0
 pandas==0.23.4
 Pillow==6.1.0
 plotly==3.10.0
